@@ -1,6 +1,15 @@
 (function($) {
   "use strict"; // Start of use strict
 
+   $(document).ready(function() {
+      $('#name-section').removeClass('hidden');
+
+    }
+  );
+  window.onresize = function(event) {
+    $("*").css( "transition-property", "none" );
+  };
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
