@@ -157,28 +157,13 @@ section {
 
 
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 header.masthead h2 {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
-
-@media (min-width: 992px) {
-  header.masthead {
-    height: 100vh;
-    min-height: 650px;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  header.masthead h1 {
-    font-size: 3rem;
-  }
-  header.masthead h2 {
-    font-size: 2rem;
-  }
-}
 .text-primary {
   color: #4F94A8 !important;
 }
@@ -189,6 +174,10 @@ header.masthead {
   background-image: url('../img/home.jpg');
   background-position: center center;
   background-size: cover;
+}
+
+.course-img {
+  margin: 0 auto;
 }
 
 .vertical-center {
@@ -241,6 +230,21 @@ header.masthead {
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #4F94A8;
   }
+  header.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+  header.masthead h2 {
+    font-size: 2rem;
+  }
+  .course-img {
+    display:inline-block;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -250,13 +254,7 @@ header.masthead {
   header.masthead h2 {
     font-size: 3rem;
   }
-}
-
-@media (min-width: 768px) {
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    font-size: 16px;
-  }
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 22px;
+  .course-img {
+    display:block;
   }
 }
