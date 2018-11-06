@@ -17,6 +17,17 @@ h1, h2 ,h3 ,h4 ,h5 ,h6 {
   transform: translate3d(-50%, -50%, 0);
 }
 
+.course-list {
+  list-style-type: none;
+  font-size: 1rem;
+  padding: 0;
+}
+
+.course-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 #title h1 {
   display: inline-block;
   opacity: 1;
@@ -63,12 +74,6 @@ h1, h2 ,h3 ,h4 ,h5 ,h6 {
 #name-section.hidden .col h2 {opacity: 0; transform: translate3d(0, -30px, 0);}
 
 
-#scroll-circle {
-  position: absolute;
-  left:50%;
-  bottom:0;
-}
-
 .check-done {
   color: green;
 }
@@ -81,11 +86,6 @@ h1, h2 ,h3 ,h4 ,h5 ,h6 {
   transition: all 1s ease 1s;
   color: rgba(255, 255, 255, 0.7);
 }
-
-.test {
-  margin: auto;
-}
-
 
 #scroll-icon {
   color: #4F94A8;
@@ -200,10 +200,6 @@ header.masthead {
   background-size: cover;
 }
 
-.course-img {
-  margin: 0 auto;
-}
-
 .vertical-center {
   display: flex !important;
 }
@@ -213,6 +209,17 @@ header.masthead {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
   border-width: 2px;
 }
+
+.course-img {
+  display:inline-block;
+  margin:auto;
+}
+
+.ed-img {
+  display:block;
+  margin: 0 auto;
+}
+
 
 @media (min-width: 992px) {
   #mainNav {
@@ -266,8 +273,8 @@ header.masthead {
   header.masthead h2 {
     font-size: 2rem;
   }
-  .course-img {
-    display:inline-block;
+  .ed-img {
+    display:block;
   }
 }
 

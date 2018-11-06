@@ -61,7 +61,10 @@
         </div>
       </div>
       <div class="row" id="scroll-circle">
-        <a class="js-scroll-trigger" href="#about"><i class="fas fa-chevron-circle-down fa-3x" id="scroll-icon"></i></a>
+        <div class="col">
+          <a class="js-scroll-trigger large d-none d-lg-block" href="#about"><i class="fas fa-chevron-circle-down fa-3x" id="scroll-icon"></i></a>
+          <a class="js-scroll-trigger d-lg-none" href="#about"><i class="fas fa-chevron-circle-down fa-2x" id="scroll-icon"></i></a>
+        </div>
       </div>
     </div>
     </div>
@@ -75,7 +78,8 @@
       </div>
       <div class="row justify-content-md-center">
         <div class="col-md-8">
-          <p class="lead"> Davi Ajmaya, 24, Västerås, Sweden
+          <p class="lead my-auto"> Davi Ajmaya
+            <p class="text-muted"> Eskilstuna, Sweden </p>
             <p>My name is Davi Ajmaya, I am 24 years old and I live in Eskilstuna, Sweden. I am a recent graduate from Mälardalen University where I studied Computer Science in Västerås, Sweden for three years. I currently work at Roima Intelligence as a
               Software Developer in Machine Learning where I am involved with an AI/ML project for a steel manufacturing process.</p>
             <p>I came across Machine Learning when doing my thesis in the final year of my university studies. Since then, I have become very fascinated and interested in the field. On my free time I take additional online courses on Machine Learning to
@@ -92,14 +96,14 @@
   <section class="primary-bg" id="education">
     <div class="container">
       <div class="text-center">
-        <h1 class="section-heading">Education</h1>
+        <h1 class="section-heading my-auto">Education</h1>
       </div>
-      <div class="row justify-content-md-center">
-        <div class="col col-lg-6 text-center">
-          <img class="rounded-circle" src="img/logo_mdh.png" width=180 height=180>
+      <div class="row justify-content-md-center p-0">
+        <div class="col col-lg-6">
+          <img class="rounded-circle ed-img" src="img/logo_mdh.png" width="180" height="180">
           <h2>Bachelor of Computer Science</h2>
           <h5>Jun 2015 - Sep 2018 </h5>
-          <p>Studied Computer Science at Mälardalen University in Västerås, Sweden. Graduated in 2018. Thesis titled Machine Learning pedestrian event monitoring using IMU and GPS. </p>
+          <p>Studied Computer Science at Mälardalen University in Västerås, Sweden for three years. Graduated in 2018 after finishing my thesis titled <em>Machine Learning pedestrian event monitoring using IMU and GPS</em>.</p>
         </div>
       </div>
 
@@ -108,8 +112,8 @@
         <h2 class="section-heading">Online courses & certificates</h2>
       </div>
       <div class="row">
-        <div class="col-lg-4">
-          <img class="rounded-circle test course-img" src="img/logo_coursera.png" width="140" height="140">
+        <div class="col-lg-4 my-2">
+          <img class="rounded-circle course-img" src="img/logo_coursera.png" width="140" height="140">
           <h3>Couresra online courses</h3>
           <ul class="fa-ul">
             <li><i class="fa-li fas fa-check-circle check-done"></i>Machine Learning, Standford University by Andrew Ng.</li>
@@ -129,7 +133,7 @@
             </ul>
           </ul>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 my-2">
           <img class="rounded-circle course-img" src="img/logo_udemy.png" width="140" height="140">
           <h3>Udemy online courses</h3>
           <ul class="fa-ul">
@@ -140,10 +144,8 @@
             <li><i class="fa-li fas fa-circle"></i>Big data and Hadoop framework</li>
           </ul>
         </div>
-        <div class="col-lg-4">
-
+        <div class="col-lg-4 my-2">
           <img class="rounded-circle course-img" src="img/logo_udacity.png" width="140" height="140">
-
           <h3>Udacity online courses</h3>
           <ul class="fa-ul">
             <li><i class="fa-li fas fa-check-circle check-done"></i>Intro to Artificial Intelligence</li>
