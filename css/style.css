@@ -225,6 +225,17 @@ header.masthead {
   margin: 0 auto;
 }
 
+.project-border {
+  width: 46%;
+  float: left;
+  border: 1px solid #4F94A8;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+  -webkit-box-shadow: 0 1px 6px #367F94;
+  box-shadow: 0 1px 6px #367F94;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
@@ -305,7 +316,7 @@ header.masthead {
   position: absolute;
   content: " ";
   width: 3px;
-  background-color: #eeeeee;
+  background-color: #4F94A8;
   left: 50%;
   margin-left: -1.5px;
 }
@@ -332,12 +343,12 @@ header.masthead {
 .timeline > li > .timeline-panel {
   width: 46%;
   float: left;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #4F94A8;
   border-radius: 2px;
   padding: 20px;
   position: relative;
-  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  -webkit-box-shadow: 0 1px 6px #367F94;
+  box-shadow: 0 1px 6px #367F94;
 }
 .timeline > li > .timeline-panel:before {
   position: absolute;
@@ -409,14 +420,28 @@ header.masthead {
 .timeline-badge.info {
   background-color: #5bc0de !important;
 }
-.timeline-title {
-  margin-top: 0;
-  color: inherit;
-}
 .timeline-body > p,
 .timeline-body > ul {
   margin-bottom: 0;
 }
 .timeline-body > p + p {
   margin-top: 5px;
+}
+.timeline-heading {
+  margin-bottom: 0.5rem;
+}
+.timeline-heading > h4 {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+  color:inherit;
+}
+.timeline-heading > h5 {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+  color:inherit;
+}
+.timeline-heading > h6 {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+  color:inherit;
 }
