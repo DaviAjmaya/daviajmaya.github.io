@@ -232,6 +232,10 @@ header.masthead {
   margin: 0 auto;
 }
 
+#home {
+  flex-direction: column
+}
+
 .project-border {
   width: 100%;
   float: left;
