@@ -241,9 +241,13 @@ header.masthead {
   flex-direction: column
 }
 
+.img-col {
+  padding-top: 30px;
+}
+
 .project-border {
   width: 100%;
-  float: left;
+  max-width: 500px;
   border: 1px solid #4F94A8;
   border-radius: 2px;
   position: relative;
@@ -463,6 +467,9 @@ header.masthead {
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
+  }
+  .img-col {
+    padding-top: 0;
   }
 }
 
