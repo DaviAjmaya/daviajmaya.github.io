@@ -232,6 +232,10 @@ header.masthead {
   margin:auto;
 }
 
+.contact-link {
+  padding-bottom: 30px;
+}
+
 .ed-img {
   display:block;
   margin: 0 auto;
@@ -467,6 +471,9 @@ header.masthead {
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
+  }
+  .img-col {
+    padding-top: 0;
   }
   .img-col {
     padding-top: 0;
